@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+
+# Environment variables - NEVER commit these
+.env
+.env.local
+.env.production
+
+# Build outputs
+dist/
+.next/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
